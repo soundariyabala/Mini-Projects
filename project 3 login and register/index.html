@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn and SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="form-login">
+
+        <div class="button-boxes">
+        <div id="btn2"></div>
+        <button type="button" class="login-btn" onclick="login()">Log In</button>
+        <button type="button" class="register-btn"onclick="register()">Register</button>
+        </div>
+
+        <div class="para">
+         <p> Already have an account?Login👆</p>
+         <p> New User?Register👆</p>
+        </div>
+        
+      <form class="input" id="login">
+       <input type="Email" class="inputfield" placeholder="Email Id" required>
+        <input type="password" class="inputfield" placeholder="Enter Password" required>
+        <input type="checkbox" class="checkbox"><span>Remember Password</span>
+        <button type="button" class="submit-btn">Log In</button>
+      </form>
+
+      <form class="input" id="register">
+       <input type="text" class="inputfield" placeholder="User Name" required>
+       <input type="Email" class="inputfield" placeholder="Email Id" required>
+       <input type="password" class="inputfield" placeholder="Enter Password" required>
+       <button type="button" class="submit-btn">Register</button>
+      </form>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

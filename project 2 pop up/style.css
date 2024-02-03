@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(245, 160, 160);
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding:10px 50px;
+    border-radius: 60px;
+    cursor:pointer;
+    font-size: 25px;;
+   font-weight: 500;
+   background-color: lightgreen;
+}
+.popup{
+    width:400px;
+    background-color: white;
+    border-radius:20px;
+    position:absolute;
+   text-align: center;
+   padding:10px 10px 10px 10px;
+  visibility: hidden;
+  }
+.open-popup{
+    visibility:visible;
+}
+
+.popup img{
+    width:80px;
+    margin-top: -50px;
+}
+.popup h2{
+    font-size:40px;
+}
+.popup button{
+    width:25%;
+     padding:5px; 
+     font-size: 20px;
+     border-radius: 10px;
+     font-weight: 600;
+     background-color:darkturquoise;
+}
+.popup p{
+font-style:oblique;
+}
